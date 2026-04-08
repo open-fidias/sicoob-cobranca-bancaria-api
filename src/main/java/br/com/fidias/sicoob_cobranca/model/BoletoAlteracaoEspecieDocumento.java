@@ -27,7 +27,7 @@ import java.io.IOException;
 /**
  * BoletoAlteracaoEspecieDocumento
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2026-04-08T16:47:00.590-03:00[America/Fortaleza]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2026-04-08T16:58:13.236-03:00[America/Fortaleza]")
 public class BoletoAlteracaoEspecieDocumento {
   public static final String SERIALIZED_NAME_CODIGO_ESPECIE_DOCUMENTO = "codigoEspecieDocumento";
   @SerializedName(SERIALIZED_NAME_CODIGO_ESPECIE_DOCUMENTO)

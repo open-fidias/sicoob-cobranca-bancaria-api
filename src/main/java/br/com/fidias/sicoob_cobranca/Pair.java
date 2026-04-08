@@ -13,7 +13,7 @@
 
 package br.com.fidias.sicoob_cobranca;
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2026-04-08T16:47:00.590-03:00[America/Fortaleza]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2026-04-08T16:58:13.236-03:00[America/Fortaleza]")
 public class Pair {
     private String name = "";
     private String value = "";

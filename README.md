@@ -2,7 +2,7 @@
 
 Cobrança Bancária
 - API version: 3.0.8.0
-  - Build date: 2026-04-08T16:47:00.590-03:00[America/Fortaleza]
+  - Build date: 2026-04-08T16:58:13.236-03:00[America/Fortaleza]
 
 <pre>[ Base URL: https://api.sicoob.com.br/cobranca-bancaria/v3 ]</pre>
 A Cobrança Bancária Sicoob é um conjunto de serviços oferecidos a seus associados para recebimento de valores referentes às vendas de produtos e serviços da sua empresa, por meio de boletos de cobrança, pagos em toda a rede bancária. Esta API disponibiliza funcionalidades que auxiliam na gestão da carteira registrada, tornando viável todo o processo de acompanhamento, desde a inclusão de novos boletos, alteração de informações relevantes, protesto/negativação de títulos vencidos e não pagos, até a liquidação ou baixa do título.
@@ -39,7 +39,7 @@ Add this dependency to your project's POM:
 
 ```xml
 <dependency>
-  <groupId>br.com.fidias</groupId>
+  <groupId>com.github.open-fidias</groupId>
   <artifactId>sicoob-cobranca-bancaria-api</artifactId>
   <version>1.0.0</version>
   <scope>compile</scope>
@@ -51,7 +51,7 @@ Add this dependency to your project's POM:
 Add this dependency to your project's build file:
 
 ```groovy
-compile "br.com.fidias:sicoob-cobranca-bancaria-api:1.0.0"
+compile "com.github.open-fidias:sicoob-cobranca-bancaria-api:1.0.0"
 ```
 
 ### Others

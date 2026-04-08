@@ -11,7 +11,7 @@ mkdir tmp-build
 npx openapi-generator generate \
     --input-spec openapi.json \
     --generator-name java \
-    --group-id br.com.fidias \
+    --group-id com.github.open-fidias \
     --artifact-id sicoob-cobranca-bancaria-api \
     --output tmp-build \
     --api-package br.com.fidias.sicoob_cobranca.api \
