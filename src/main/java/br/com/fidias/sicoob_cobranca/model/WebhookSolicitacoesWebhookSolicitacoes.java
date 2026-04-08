@@ -31,7 +31,7 @@ import java.util.List;
 /**
  * WebhookSolicitacoesWebhookSolicitacoes
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2026-04-08T16:07:18.842-03:00[America/Fortaleza]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2026-04-08T16:47:00.590-03:00[America/Fortaleza]")
 public class WebhookSolicitacoesWebhookSolicitacoes {
   public static final String SERIALIZED_NAME_CODIGO_WEBHOOK_SITUACAO = "codigoWebhookSituacao";
   @SerializedName(SERIALIZED_NAME_CODIGO_WEBHOOK_SITUACAO)

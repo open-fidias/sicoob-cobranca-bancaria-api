@@ -1,6 +1,6 @@
 # PagadorApi
 
-All URIs are relative to *http://localhost/cobranca-bancaria/v3*
+All URIs are relative to *https://sandbox.sicoob.com.br/sicoob/sandbox/cobranca-bancaria/v3*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -27,7 +27,7 @@ import br.com.fidias.sicoob_cobranca.api.PagadorApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("http://localhost/cobranca-bancaria/v3");
+    defaultClient.setBasePath("https://sandbox.sicoob.com.br/sicoob/sandbox/cobranca-bancaria/v3");
 
     PagadorApi apiInstance = new PagadorApi(defaultClient);
     Pagador pagador = new Pagador(); // Pagador | Informações do pagador.

@@ -10,6 +10,7 @@
             "email": "GrupoGesin1CobrancaBancaria@sicoob.com.br"
         }
     },
+    "host": "sandbox.sicoob.com.br/sicoob/sandbox",
     "schemes": [
         "https"
     ],
@@ -66,7 +67,6 @@
                         "description": "Inclusão das informações detalhadas do boleto de cobrança.",
                         "required": true,
                         "schema": {
-                            "type": "object",
                             "$ref": "#/definitions/Boleto"
                         }
                     }
@@ -1609,7 +1609,6 @@
                         "description": "Informações do boleto de cobrança",
                         "required": true,
                         "schema": {
-                            "type": "object",
                             "$ref": "#/definitions/BoletoAlteracao"
                         }
                     }
@@ -1661,7 +1660,6 @@
                         "description": "Informações do boleto de cobrança",
                         "required": true,
                         "schema": {
-                            "type": "object",
                             "$ref": "#/definitions/BoletoBaixa"
                         }
                     }
@@ -1706,7 +1704,6 @@
                         "description": "Informações do pagador.",
                         "required": true,
                         "schema": {
-                            "type": "object",
                             "$ref": "#/definitions/Pagador"
                         }
                     }
@@ -1758,7 +1755,6 @@
                         "description": "Informações do boleto de cobrança.",
                         "required": true,
                         "schema": {
-                            "type": "object",
                             "$ref": "#/definitions/Negativacao"
                         }
                     }
@@ -1808,7 +1804,6 @@
                         "description": "Informações do boleto.",
                         "required": true,
                         "schema": {
-                            "type": "object",
                             "$ref": "#/definitions/Negativacao"
                         }
                     }
@@ -1858,7 +1853,6 @@
                         "description": "Informações do boleto de cobrança.",
                         "required": true,
                         "schema": {
-                            "type": "object",
                             "$ref": "#/definitions/Negativacao"
                         }
                     }
@@ -1910,7 +1904,6 @@
                         "description": "Informações do boleto bancário.",
                         "required": true,
                         "schema": {
-                            "type": "object",
                             "$ref": "#/definitions/Protesto"
                         }
                     }
@@ -1960,7 +1953,6 @@
                         "description": "Informações do boleto bancário.",
                         "required": true,
                         "schema": {
-                            "type": "object",
                             "$ref": "#/definitions/Protesto"
                         }
                     }
@@ -2010,7 +2002,6 @@
                         "description": "Informações do boleto de cobrança.",
                         "required": true,
                         "schema": {
-                            "type": "object",
                             "$ref": "#/definitions/Protesto"
                         }
                     }

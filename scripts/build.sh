@@ -12,7 +12,7 @@ npx openapi-generator generate \
     --input-spec openapi.json \
     --generator-name java \
     --group-id br.com.fidias \
-    --artifact-id sicoob-cobranca-bancaria-v3 \
+    --artifact-id sicoob-cobranca-bancaria-api \
     --output tmp-build \
     --api-package br.com.fidias.sicoob_cobranca.api \
     --model-package br.com.fidias.sicoob_cobranca.model \

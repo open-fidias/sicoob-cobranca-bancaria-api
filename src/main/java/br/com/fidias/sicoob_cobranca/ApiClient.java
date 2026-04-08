@@ -54,7 +54,7 @@ import br.com.fidias.sicoob_cobranca.auth.ApiKeyAuth;
 
 public class ApiClient {
 
-    private String basePath = "http://localhost/cobranca-bancaria/v3";
+    private String basePath = "https://sandbox.sicoob.com.br/sicoob/sandbox/cobranca-bancaria/v3";
     private boolean debugging = false;
     private Map<String, String> defaultHeaderMap = new HashMap<String, String>();
     private Map<String, String> defaultCookieMap = new HashMap<String, String>();
@@ -138,7 +138,7 @@ public class ApiClient {
     /**
      * Set base path
      *
-     * @param basePath Base path of the URL (e.g http://localhost/cobranca-bancaria/v3
+     * @param basePath Base path of the URL (e.g https://sandbox.sicoob.com.br/sicoob/sandbox/cobranca-bancaria/v3
      * @return An instance of OkHttpClient
      */
     public ApiClient setBasePath(String basePath) {

@@ -1,6 +1,6 @@
 # ProtestoApi
 
-All URIs are relative to *http://localhost/cobranca-bancaria/v3*
+All URIs are relative to *https://sandbox.sicoob.com.br/sicoob/sandbox/cobranca-bancaria/v3*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -29,7 +29,7 @@ import br.com.fidias.sicoob_cobranca.api.ProtestoApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("http://localhost/cobranca-bancaria/v3");
+    defaultClient.setBasePath("https://sandbox.sicoob.com.br/sicoob/sandbox/cobranca-bancaria/v3");
 
     ProtestoApi apiInstance = new ProtestoApi(defaultClient);
     Integer nossoNumero = 56; // Integer | Número que identifica o boleto de cobrança no Sisbr
@@ -95,7 +95,7 @@ import br.com.fidias.sicoob_cobranca.api.ProtestoApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("http://localhost/cobranca-bancaria/v3");
+    defaultClient.setBasePath("https://sandbox.sicoob.com.br/sicoob/sandbox/cobranca-bancaria/v3");
 
     ProtestoApi apiInstance = new ProtestoApi(defaultClient);
     Integer nossoNumero = 56; // Integer | Número que identifica o boleto de cobrança no Sisbr
@@ -161,7 +161,7 @@ import br.com.fidias.sicoob_cobranca.api.ProtestoApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("http://localhost/cobranca-bancaria/v3");
+    defaultClient.setBasePath("https://sandbox.sicoob.com.br/sicoob/sandbox/cobranca-bancaria/v3");
 
     ProtestoApi apiInstance = new ProtestoApi(defaultClient);
     Integer nossoNumero = 56; // Integer | Número que identifica o boleto de cobrança no Sisbr

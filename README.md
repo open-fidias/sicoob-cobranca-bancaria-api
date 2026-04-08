@@ -1,8 +1,8 @@
-# sicoob-cobranca-bancaria-v3
+# sicoob-cobranca-bancaria-api
 
 Cobrança Bancária
 - API version: 3.0.8.0
-  - Build date: 2026-04-08T16:07:18.842-03:00[America/Fortaleza]
+  - Build date: 2026-04-08T16:47:00.590-03:00[America/Fortaleza]
 
 <pre>[ Base URL: https://api.sicoob.com.br/cobranca-bancaria/v3 ]</pre>
 A Cobrança Bancária Sicoob é um conjunto de serviços oferecidos a seus associados para recebimento de valores referentes às vendas de produtos e serviços da sua empresa, por meio de boletos de cobrança, pagos em toda a rede bancária. Esta API disponibiliza funcionalidades que auxiliam na gestão da carteira registrada, tornando viável todo o processo de acompanhamento, desde a inclusão de novos boletos, alteração de informações relevantes, protesto/negativação de títulos vencidos e não pagos, até a liquidação ou baixa do título.
@@ -40,7 +40,7 @@ Add this dependency to your project's POM:
 ```xml
 <dependency>
   <groupId>br.com.fidias</groupId>
-  <artifactId>sicoob-cobranca-bancaria-v3</artifactId>
+  <artifactId>sicoob-cobranca-bancaria-api</artifactId>
   <version>1.0.0</version>
   <scope>compile</scope>
 </dependency>
@@ -51,7 +51,7 @@ Add this dependency to your project's POM:
 Add this dependency to your project's build file:
 
 ```groovy
-compile "br.com.fidias:sicoob-cobranca-bancaria-v3:1.0.0"
+compile "br.com.fidias:sicoob-cobranca-bancaria-api:1.0.0"
 ```
 
 ### Others
@@ -64,7 +64,7 @@ mvn clean package
 
 Then manually install the following JARs:
 
-* `target/sicoob-cobranca-bancaria-v3-1.0.0.jar`
+* `target/sicoob-cobranca-bancaria-api-1.0.0.jar`
 * `target/lib/*.jar`
 
 ## Getting Started
@@ -83,7 +83,7 @@ import br.com.fidias.sicoob_cobranca.api.ApoioApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("http://localhost/cobranca-bancaria/v3");
+    defaultClient.setBasePath("https://sandbox.sicoob.com.br/sicoob/sandbox/cobranca-bancaria/v3");
 
     ApoioApi apiInstance = new ApoioApi(defaultClient);
     try {
@@ -103,7 +103,7 @@ public class Example {
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *http://localhost/cobranca-bancaria/v3*
+All URIs are relative to *https://sandbox.sicoob.com.br/sicoob/sandbox/cobranca-bancaria/v3*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------

@@ -1,6 +1,6 @@
 # BoletoApi
 
-All URIs are relative to *http://localhost/cobranca-bancaria/v3*
+All URIs are relative to *https://sandbox.sicoob.com.br/sicoob/sandbox/cobranca-bancaria/v3*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -33,7 +33,7 @@ import br.com.fidias.sicoob_cobranca.api.BoletoApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("http://localhost/cobranca-bancaria/v3");
+    defaultClient.setBasePath("https://sandbox.sicoob.com.br/sicoob/sandbox/cobranca-bancaria/v3");
 
     BoletoApi apiInstance = new BoletoApi(defaultClient);
     Integer numeroCliente = 56; // Integer | Número que identifica o contrato do beneficiário no Sisbr.
@@ -105,7 +105,7 @@ import br.com.fidias.sicoob_cobranca.api.BoletoApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("http://localhost/cobranca-bancaria/v3");
+    defaultClient.setBasePath("https://sandbox.sicoob.com.br/sicoob/sandbox/cobranca-bancaria/v3");
 
     BoletoApi apiInstance = new BoletoApi(defaultClient);
     Integer numeroCliente = 56; // Integer | Número que identifica o contrato do beneficiário no Sisbr.
@@ -181,7 +181,7 @@ import br.com.fidias.sicoob_cobranca.api.BoletoApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("http://localhost/cobranca-bancaria/v3");
+    defaultClient.setBasePath("https://sandbox.sicoob.com.br/sicoob/sandbox/cobranca-bancaria/v3");
 
     BoletoApi apiInstance = new BoletoApi(defaultClient);
     Integer nossoNumero = 56; // Integer | Número que identifica o boleto de cobrança no Sisbr
@@ -247,7 +247,7 @@ import br.com.fidias.sicoob_cobranca.api.BoletoApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("http://localhost/cobranca-bancaria/v3");
+    defaultClient.setBasePath("https://sandbox.sicoob.com.br/sicoob/sandbox/cobranca-bancaria/v3");
 
     BoletoApi apiInstance = new BoletoApi(defaultClient);
     Integer nossoNumero = 56; // Integer | Número que identifica o boleto de cobrança no Sisbr
@@ -313,7 +313,7 @@ import br.com.fidias.sicoob_cobranca.api.BoletoApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("http://localhost/cobranca-bancaria/v3");
+    defaultClient.setBasePath("https://sandbox.sicoob.com.br/sicoob/sandbox/cobranca-bancaria/v3");
 
     BoletoApi apiInstance = new BoletoApi(defaultClient);
     Boleto boleto = new Boleto(); // Boleto | Inclusão das informações detalhadas do boleto de cobrança.
@@ -378,7 +378,7 @@ import br.com.fidias.sicoob_cobranca.api.BoletoApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("http://localhost/cobranca-bancaria/v3");
+    defaultClient.setBasePath("https://sandbox.sicoob.com.br/sicoob/sandbox/cobranca-bancaria/v3");
 
     BoletoApi apiInstance = new BoletoApi(defaultClient);
     Integer numeroCliente = 56; // Integer | Número que identifica o contrato do beneficiário no Sisbr.
@@ -456,7 +456,7 @@ import br.com.fidias.sicoob_cobranca.api.BoletoApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("http://localhost/cobranca-bancaria/v3");
+    defaultClient.setBasePath("https://sandbox.sicoob.com.br/sicoob/sandbox/cobranca-bancaria/v3");
 
     BoletoApi apiInstance = new BoletoApi(defaultClient);
     String numeroCpfCnpj = "numeroCpfCnpj_example"; // String | CPF ou CNPJ do pagador. `Tamanho máximo 14`

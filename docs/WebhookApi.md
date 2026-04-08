@@ -1,6 +1,6 @@
 # WebhookApi
 
-All URIs are relative to *http://localhost/cobranca-bancaria/v3*
+All URIs are relative to *https://sandbox.sicoob.com.br/sicoob/sandbox/cobranca-bancaria/v3*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -32,7 +32,7 @@ import br.com.fidias.sicoob_cobranca.api.WebhookApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("http://localhost/cobranca-bancaria/v3");
+    defaultClient.setBasePath("https://sandbox.sicoob.com.br/sicoob/sandbox/cobranca-bancaria/v3");
 
     WebhookApi apiInstance = new WebhookApi(defaultClient);
     Long idWebhook = 56L; // Long | Identificador único do webhook.
@@ -100,7 +100,7 @@ import br.com.fidias.sicoob_cobranca.api.WebhookApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("http://localhost/cobranca-bancaria/v3");
+    defaultClient.setBasePath("https://sandbox.sicoob.com.br/sicoob/sandbox/cobranca-bancaria/v3");
 
     WebhookApi apiInstance = new WebhookApi(defaultClient);
     Long idWebhook = 56L; // Long | Identificador único do webhook.
@@ -164,7 +164,7 @@ import br.com.fidias.sicoob_cobranca.api.WebhookApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("http://localhost/cobranca-bancaria/v3");
+    defaultClient.setBasePath("https://sandbox.sicoob.com.br/sicoob/sandbox/cobranca-bancaria/v3");
 
     WebhookApi apiInstance = new WebhookApi(defaultClient);
     Long idWebhook = 56L; // Long | Identificador único do webhook.
@@ -230,7 +230,7 @@ import br.com.fidias.sicoob_cobranca.api.WebhookApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("http://localhost/cobranca-bancaria/v3");
+    defaultClient.setBasePath("https://sandbox.sicoob.com.br/sicoob/sandbox/cobranca-bancaria/v3");
 
     WebhookApi apiInstance = new WebhookApi(defaultClient);
     Long idWebhook = 56L; // Long | Identificador único do webhook.
@@ -294,7 +294,7 @@ import br.com.fidias.sicoob_cobranca.api.WebhookApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("http://localhost/cobranca-bancaria/v3");
+    defaultClient.setBasePath("https://sandbox.sicoob.com.br/sicoob/sandbox/cobranca-bancaria/v3");
 
     WebhookApi apiInstance = new WebhookApi(defaultClient);
     Long idWebhook = 56L; // Long | Identificador único do webhook.
@@ -369,7 +369,7 @@ import br.com.fidias.sicoob_cobranca.api.WebhookApi;
 public class Example {
   public static void main(String[] args) {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
-    defaultClient.setBasePath("http://localhost/cobranca-bancaria/v3");
+    defaultClient.setBasePath("https://sandbox.sicoob.com.br/sicoob/sandbox/cobranca-bancaria/v3");
 
     WebhookApi apiInstance = new WebhookApi(defaultClient);
     WebhookCadastro webhook = new WebhookCadastro(); // WebhookCadastro | Informações do webhook para o cadastro.
