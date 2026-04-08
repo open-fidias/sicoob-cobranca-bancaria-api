@@ -1,0 +1,5 @@
+{
+    "java8": true,
+    "library": "okhttp-gson",
+    "dateLibrary": "java8"
+}
